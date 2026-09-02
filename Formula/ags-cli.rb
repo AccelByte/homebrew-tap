@@ -1,25 +1,25 @@
 class AgsCli < Formula
   desc "Unified CLI for AccelByte Gaming Services"
   homepage "https://accelbyte.io/gaming-services"
-  version "0.5.0-rc.2"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "d804cc8b6b39238201b2e2125093a761439edfee58baf99d8f01177a3d646d03"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0/accelbyte-ags-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "62f528bdf04c434bd6e606f7846832a0a4ba9b3555b28532965e87b520562039"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "a9ec93bb72d8db3cc05eb02c7e8ae5af3a677836f85442b7b528e534da9797f7"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0/accelbyte-ags-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "97f31fc097220cf13e539837b3e1ab6ad7031773cf51fe75670d74e772077def"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "189751487df04afcf0047a2bc4e8a556aaa92da51228107dfc0ab6c76fcceadb"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0/accelbyte-ags-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1567e77d7cc16fe56893f387a220a5f85897a0543ed3708e775701b30d334edf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "09098659c09e893a263549763e25e72561e5255a844f3c68232676b17513e7ff"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0/accelbyte-ags-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d1f8adc24edb8b0cca233dbba2240d8dcb654314fe3913596115258da027c63d"
     end
   end
   license "MIT"
