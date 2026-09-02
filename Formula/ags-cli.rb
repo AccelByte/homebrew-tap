@@ -1,25 +1,25 @@
 class AgsCli < Formula
   desc "Unified CLI for AccelByte Gaming Services"
   homepage "https://accelbyte.io/gaming-services"
-  version "0.5.0-rc.1"
+  version "0.5.0-rc.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.1/accelbyte-ags-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "a9481acd2acfeeddd2725001e2158dda5312ab25e1ede68679ade5093c46ff3a"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "d804cc8b6b39238201b2e2125093a761439edfee58baf99d8f01177a3d646d03"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.1/accelbyte-ags-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "5a389c89603002b9e68c80aa7d8c2c60062db7c0973ab85563a0249cb7ae46e9"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "a9ec93bb72d8db3cc05eb02c7e8ae5af3a677836f85442b7b528e534da9797f7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.1/accelbyte-ags-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d2b81c98ad611111c187c410a732e7640e15f76b8a61ce85972b89649711e3fb"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "189751487df04afcf0047a2bc4e8a556aaa92da51228107dfc0ab6c76fcceadb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.1/accelbyte-ags-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "32399dfcd143c9cb0692bd66beb2a259f20b6c3bb4f6a264d54e216f2c489a25"
+      url "https://github.com/AccelByte/accelbyte-ags-cli/releases/download/v0.5.0-rc.2/accelbyte-ags-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "09098659c09e893a263549763e25e72561e5255a844f3c68232676b17513e7ff"
     end
   end
   license "MIT"
